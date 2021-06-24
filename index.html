@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <title>AHTN | Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
+  </head>
+
+
+<!-- Style for floating form -->
+<style>
+  .combine-main{
+    position: relative;
+  }
+  .formcontainer{
+    position: absolute;
+    top: 90%;
+    left: 5%;
+    right: 5%;
+  }
+  .carousel-indicators li {
+  border-radius: 50%;
+  width: 8px !important;
+  height: 8px !important;
+  margin: 2px 7px !important;
+  border: 2px solid white !important;
+  }
+  
+
+  
+
+</style>
+
+
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-white">
+      <div class="container">
+        <a class="nav-brand" href="index.html"
+          ><img class="imglogo" src="images/logo.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <span class="navbar-toggler-icon"><i class="fa fa-medkit" aria-hidden="true"></i>
+        </span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="findatherapist.html">Find a Therapist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="news.html">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item">
+              <button
+              type="button"
+              class="btn btn-primary btn-sm loginbtn" 
+            >
+
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentcolor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                <path fill-rule="evenodd"  d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+              </svg>
+              <span style="padding-left: 5px;"> Log in </span>
+            </button>
+            </li>
+            <li class="nav-item">
+              <button
+              class="btn btn-warning btn-sm my-sm-0  joinbtn"
+              type=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+<span style="padding-left: 3px;"> Join Us </span>
+              
+            </button>
+            </li>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <body>
+        <div class="full-page-container" >
+
+
+
+<!-- Carousel + Form Combined DIV -->
+<div class="combine-main">
+    <!-- Carousel -->
+    <div id="carouselExampleCaptions" class="carousel slide main-carousel mb-4" data-bs-ride="carousel">
+      <ol class="carousel-indicators mb-5 pb-3">
+        <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></li>
+        <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></li>
+        <li type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item layoutblack carousol-main-img1 active">
+          <div class="carousel-caption">
+            <h1 class="h1caption"> <strong> Therapies In One Place </strong> <br> To Promote Best Outcomes</h1>
+          </div>
+        </div>
+        <div class="carousel-item layoutblack carousol-main-img2">
+          
+          <div class="carousel-caption">
+            <h1 class="h1caption"> <strong> Therapies In One Place </strong> <br> To Promote Best Outcomes</h1>
+                    </div>
+        </div>
+        <div class="carousel-item layoutblack carousol-main-img3">
+          <div class="carousel-caption">
+            <h1 class="h1caption"> <strong> Therapies In One Place </strong> <br> To Promote Best Outcomes</h1>
+            <p>Some representative placeholder content for the third slide.</p>
+          </div>
+        </div>
+      </div>
+     
+    </div>
+
+
+
+          <!-- FORM CONTAINER -->
+
+<div class=" formcontainer mb-4 pt-5 mt-2  mx-auto" >
+  <div class="row " style="padding: 0 5%; " >
+    <!-- col1 -->
+    <div class="card col-lg-4 col-md-8 col-sm-8 col-xs-8 mx-auto mb-5 " style="position: relative;" > 
+      <img src="images/laptopman.png" class="card-img-top mx-auto" alt="laptopman">
+      <div class="card-body">
+        <h4 class="card-title">About AHTN</h4>
+        <p class="card-text ">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        </p>
+        <a href="#" class="btn btn-info join-now formbtn-bottomalign-absolute" style="position: absolute; bottom: 0; ">Find Out More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></a>
+      </div>
+    </div>
+    <!-- col2 -->
+    <div class="col-lg-4 col-md-8 col-sm-8 col-xs-8 mx-auto mb-5" style="position: relative; padding-bottom: 8%;" >
+    <h3 class=" pb-4"><strong>Find</strong> a Therapist</h3>
+    <div >
+      <input type="text" placeholder="Postcode*" class="form-control" id="inputZip" style="padding-bottom: 3%;padding-top: 3%;">
+    </div>
+    
+    <div class=" pt-4 pb-1" >
+    <input type="range" min="1" max="60" value="15" class="slider" id="myRange">  <span style="font-size: 12px">  Miles: <span id="demo"></span></span>
+    </div>
+<div class="pt-4 pb-1">
+    <select class="form-select" aria-label="Default select example" style="padding-top: 3%; padding-bottom: 3%;">
+      <option selected>Professions</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select></div>
+<div class="pt-3">
+    <select class="form-select" aria-label="Default select example" style="padding-top: 3%; padding-bottom: 3%">
+      <option selected>Age Groups</option>
+      <option value="1">One</option>
+      <option value="2">Two</option>
+      <option value="3">Three</option>
+    </select></div>
+
+    <div class="formbtn-bottomalign-absolute"  style="margin-top: 12%; margin-left:3%; max-width: 100% ; position: absolute; bottom: 0; width: 100%;">
+      <a href="#" class="btn btn-info infobutton  " style="padding: 2% 0%;width: 45% ;"> Reset </a>
+      
+      <a href="#" class="btn btn-info join-now pl-2 " style="padding: 2% 0%; width: 45%; margin-left: 5%;  "> Search <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+      </svg></a> </div>
+    </div>
+    
+    <!-- col3 -->
+    <div class="card col-lg-4 col-md-8 col-sm-8 col-xs-8 mx-auto mb-5" style="position: relative;" >
+      <img src="images/headphonegirl.png" class="card-img-top" alt="headphonegirl">
+      <div class="card-body">
+        <h4 class="card-title"> Become a Member</h4>
+        <p class="card-text">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore 
+        </p>
+        <a href="#" class="btn btn-info join-now formbtn-bottomalign-absolute" style="position: absolute; bottom: 0;"> Join Our Network <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+        </svg></a>
+      </div>
+    </div>
+  </div>
+  </div>
+  <!-- Form Container End -->
+  </div>
+  <!-- Combined Div end -->
+  
+
+
+
+
+
+
+    <!-- section 1-->
+    <div class="container sec-width-80 margin-sec-none " style="margin-top: 42%;">
+      <div class="row mb-5">
+      
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 homesec1" style="position: relative;">
+        
+        <div style="position: relative;">
+        <img class="homepicsizing homesection1pic" src="images/ladyinpink.png" alt="ladyinpink" >
+
+        <img type="button" class="play-btn" src="images/play-icon.png" data-bs-toggle="modal" data-bs-target="#modalPublicvideo"></img>
+      </div>
+<!-- Modal Public Video-->
+<div class="modal fade" id="modalPublicvideo" tabindex="-1" aria-labelledby="modalPublicvideoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style=" align-items: center; background-color: black;">
+
+      <div style="position: relative;">
+              <iframe class="modalvideo-sm-size" width="900" height="507" src="https://www.youtube.com/embed/wv9cP1I9ozY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"  allowfullscreen></iframe>
+            <img src="images/close-icon.png" type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close" >
+</div>
+
+
+    </div>
+  </div>
+</div>
+        
+      </div>
+      <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text">
+        <h2><strong> About Allied Health </strong> <br> 
+          & Therapy Network </h2>
+          <p style="padding-top: 2%;">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas
+          </p>
+          <br>
+          <a href="#" class="btn btn-info infobutton"> Find Out More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+          </svg></a>
+      </div>
+      </div>
+      </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- section 2-->
+<div class="container sec-width-80" >
+  <div class="row mb-5">
+  
+  
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text" style="padding-top: 17%;" >
+      <p style="padding-top: 5%;">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas
+      </p>
+      <br>
+      <a href="#" class="btn btn-info infobutton"> Join Our Network <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+        <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+      </svg></a>
+  </div>
+
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 homesec2">
+   <div style="position: relative;">   
+     <img class="homepicsizing" src="images/maninwhite.png" alt="recruitment" >
+ <img type="button" class="play-btn" src="images/play-icon.png" data-bs-toggle="modal" data-bs-target="#modalMembervideo"></img>
+      </div>
+<!-- Modal Member Video-->
+<div class="modal" id="modalMembervideo" tabindex="-1" aria-labelledby="modalMembervideoLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content" style=" align-items: center; background-color: black;">
+      <div style="position: relative;">
+    <iframe class="modalvideo-sm-size" width="900" height="507" src="https://www.youtube.com/embed/qeoXp2uNqoo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+         <img src="images/close-icon.png" type="button" class="modal-close-btn" data-bs-dismiss="modal" aria-label="Close" >
+         </div>
+
+  </div>
+  
+
+  </div>
+  </div>
+</div>
+  </div>
+</div>
+  
+  
+  
+
+<!-- Carousel Bottom -->
+  <div class="container carousel-container-mobile mb-5" >
+      <div
+        id="carouselExampleControls"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner inner-carousel-1" >
+          <div class="carousel-item active">
+            <h2 style="color: white;"><strong>Latest News</strong> & Events</h2>
+            <div class="row pt-1">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img1.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+                <h6  class="carousel-title-white"> News Title 1</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img2.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+                <h6  class="carousel-title-white">News Title 2</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img3.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+
+                <h6  class="carousel-title-white">News Title 3</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+          
+ <div class="carousel-item ">
+            <h2 style="color: white;"><strong>Latest News</strong> & Events</h2>
+            <div class="row pt-1">
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img1.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+                <h6  class="carousel-title-white"> News Title 1</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img2.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+                <h6  class="carousel-title-white">News Title 2</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 carousel-grid">
+                <img
+                  src="images/car-img3.png"
+                  class="img-area"
+                  alt="car-img1"
+                />
+
+                <h6  class="carousel-title-white">News Title 3</h6>
+                <p class="carousel-p-12">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed eos maxime saepe accusantium fuga natus facilis neque provident mollitia sapiente.
+                </p>
+                <a class="continue-reading-link" href="#">Continue Reading</a>
+              </div>
+            </div>
+          </div>
+          
+      
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleControls"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  
+<!-- Full Body Container End -->
+ </div>
+
+
+
+<section class="footersec mb-0">
+  <!-- Footer -->
+  <footer class="footerbg text-black  text-md-start mb-0" >
+    <!-- Grid container -->
+    <div class="container  pt-5 pb-3";>
+      <!--Grid row-->
+      <div class="row footer-row-sm-center" >
+        <!--Grid column 1-->
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-4 mb-4 ftimagecol">
+          <img
+            class="footerimage"
+            src="images/AHTN-Logotype-Marque-BW-High-Res.png"
+            alt="footerimage"
+          />
+        </div>
+
+        <!--Grid column 2-->
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
+          <p style="font-size: smaller;">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
+            <br />
+
+          © 2020 AHTN <span style="padding-left: 10px;"> Designed by -dash </span>
+          </p>
+        </div>
+
+        <!--Grid column 3-->
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-dark footer-col2 mb-4 footer-row-sm-center"  >
+          <p class="footerp text-dark"> 
+            <a href="#!"><i class="fa fa-phone footer-icon "></i></a> 00000 000 000
+          </p>
+          <p class="footerp text-dark">
+           <a href="#!"><i class="fa fa-envelope footer-icon"></i></a> 
+            hello@ahtnetwork.com
+          </p>
+          <p class="footerp text-dark">
+            <a href="#!">  <i class="fa fa-facebook-f footer-icon"> </i></a>
+            <a href="#!"><i class="fa fa-instagram footer-icon"></i></a>
+             <a href="#!"><i class="fa fa-twitter footer-icon" aria-hidden="true"></i></a>
+             <a href="#!"><i class="fa fa-whatsapp footer-icon" aria-hidden="true"></i></a>
+             <a href="#!"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i></a>
+
+
+
+
+          </p>
+        </div>
+
+        <!--Grid column 4-->
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 mb-3 footer-col3 " >
+          <ul class="list-unstyled mb-0 ">
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >About</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+        
+                >Find a Therapist</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >News</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <!--Grid column 5-->
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 footer-col4" >
+          <ul class="list-unstyled">
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >Contact</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >Privacy & Terms</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >Become a Member</a
+              >
+            </li>
+            <li>
+              <a
+                href="#!"
+                class="text-dark"
+                
+                >Log in</a
+              >
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+<!-- Slider -->
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+      integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+      crossorigin="anonymous"
+    ></script>
+   
+  </body>
+</html>
