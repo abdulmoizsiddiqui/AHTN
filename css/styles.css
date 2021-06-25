@@ -587,8 +587,7 @@ hr {
     padding: 0;
   }
   .removetext {
-    display: block;
-    font-size: 0;
+    display: none;
   }
   .email-sm-btn {
     width: 117px;
@@ -629,6 +628,13 @@ hr {
   }
   .carousel-caption {
     top: 30% !important;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .mob-view-center {
+    text-align: center !important;
+    padding-bottom: 3%;
   }
 }
 @media all and (max-width: 500px) {
