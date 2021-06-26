@@ -76,21 +76,21 @@
 .carousol-main-img1 {
   background-image: url(../images/mainhomeimage.png);
   width: 100%;
-  height: 32rem;
+  height: 616px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .carousol-main-img2 {
   background-image: url(../images/mainhomeimage.png);
   width: 100%;
-  height: 32rem;
+  height: 616px;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .carousol-main-img3 {
   background-image: url(../images/mainhomeimage.png);
   width: 100%;
-  height: 32rem;
+  height: 616px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -214,7 +214,7 @@
   background-color: #1c96bc; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #1b95bb, #016d8f);
   color: white;
-  border-radius: 15px;
+  border-radius: 10px;
   width: 80%;
 }
 .card {
@@ -261,16 +261,26 @@
   margin-bottom: 5%;
 }
 
+.carousel-control-next {
+  right: -15px;
+}
+.carousel-control-prev {
+  left: -15px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}
 .carousel-control-next-icon {
   background-image: url(../images/Icon-arrow-right.png);
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
 }
 
 .carousel-control-prev-icon {
   background-image: url(../images/Icon-arrow-left.png);
-  width: 20px;
-  height: 20px;
+  width: 17px;
+  height: 17px;
 }
 .continue-reading-link {
   text-decoration: none;
@@ -300,7 +310,7 @@
   background-color: #1c96bc; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #1b95bb, #016d8f);
   color: white;
-  padding: 2% 10%;
+  padding: 4% 10% 2%;
 }
 
 /* ABOUT PAGE */
@@ -629,12 +639,28 @@ hr {
   .carousel-caption {
     top: 30% !important;
   }
+  .video-mob-margin {
+    margin: 0 !important;
+    padding: 0 !important;
+    margin: 0 auto !important;
+  }
+  .help-container {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    max-width: 100% !important;
+  }
 }
 
 @media all and (max-width: 576px) {
   .mob-view-center {
     text-align: center !important;
     padding-bottom: 3%;
+  }
+  .Carousel-2,
+  .businesshubSection,
+  .carousel-container-mobile {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
   }
 }
 @media all and (max-width: 500px) {
