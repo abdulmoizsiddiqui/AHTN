@@ -19,6 +19,149 @@
     <link rel="stylesheet" href="css/styles.css" />
         <link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
 
+        <style type="text/css">
+          
+           .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+            max-width: 100%;
+          }
+             .banner {
+                 color: white;
+                 background-repeat: no-repeat;
+                 background-size: cover;
+                 height: 500px;
+                 width: 100%;
+                 display: flex;
+                 flex-direction: column;
+                 justify-content: center;
+                 align-items: center;
+                 position: relative;
+             }
+             .full-page-container {
+                 max-width: 100%;
+                 margin: auto;
+             }
+
+             .sec-width-80 {
+                 max-width: 90%;
+                 justify-content: center;
+                 align-items: center;
+                 margin: auto;
+             }
+
+
+             .footer-text {
+              font-size: inherit;
+             }
+
+
+             .bannerp {
+                font-size: 1rem;
+              }
+
+              .card-101 {
+                  max-width: 700px;
+                  max-height: 350px;
+                  text-align: center;
+              }
+
+              .clinicalhubSection{
+                max-width: 85%;
+                border-radius: 10px;
+              }
+              .sec-width-80 {
+                 max-width: 80%;
+                 margin-top: 80px !important;
+              }
+
+              @media (min-width: 1024px){
+        .homepicsizing {
+           width: 115%;
+           max-height: 100%;
+           margin: auto;
+           align-items: center;
+           justify-content: center;
+           padding: 5% 5%;
+           margin-top: 42px;
+        }
+
+        .sec-80-text {
+          align-items: center;
+          justify-content: center;
+          padding: 10% 0% 10% 8%;
+      }
+      .faq-section {
+          max-width: 100%;
+          margin: auto;
+       }
+
+       }
+
+       
+
+      @media (min-width: 1400px){ 
+        .homepicsizing {
+            width: 100%;
+            max-height: 100%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            padding: 5% 5%;
+            margin-top: 0px;
+        }
+
+        .sec-80-text {
+            align-items: center;
+            justify-content: center;
+            padding: 10% 3%;
+        }
+        .faq-section {
+          max-width: 80%;
+          margin: auto;
+       }
+      }
+
+      @media (min-width: 1600px) {
+         .homepicsizing {
+          width:67% ;
+
+        }
+        .sec-80-text {
+          align-items: center;
+          justify-content: center;
+          padding: 10% 0%;
+      }
+      .faq-section {
+          max-width: 80%;
+          margin: auto;
+       }
+      }
+
+      .businesshubSection {
+        border-radius: 10px;
+        margin-top: 100px !important;
+        max-width: 1617px;
+      }
+
+      .Carousel-2 {
+        max-width: 85%;
+        margin: auto;
+      }
+      .inner-carousel-1 {
+        border-radius: 10px;
+      }
+
+      .carousel-p-12 {
+        font-size: 1rem !important;
+      }
+
+      .footer-text {
+        font-size: inherit;
+      }
+
+
+
+        </style>
+
   </head>
   <body>
     
@@ -92,34 +235,53 @@
  </div>
 
 <!-- Cards -->
-<div class="container " style="align-items: center; justify-content: center; width: 100%; padding: 7%; " >
+<div class="container " style="align-items: center;justify-content: center;width: 100%;padding: 2% 4%;" >
 <div class="row g-5 p-3">
-    <div class="card bg-light p-3 col-lg-6 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 card-101" >
+    <div class=" p-3 col-lg-6 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 card-101" >
+      <div class="card bg-light" style="min-height: 240px;">
+        
       <div class="card-body">
         <h2 class="card-title pt-4"><strong> Find a Member</strong></h2>
         <p class="card-text pb-3">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ducimus. Officia quam aliquid aspernatur deleniti odio recusandae neque, voluptatibus doloribus?        </p>
-        <a href="#" class="btn btn-sm btn-info join-now ">Search Members <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+
+
+     <div class="position-absolute bottom-20 start-50 translate-middle-x">
+        
+        <a href="#" class="btn btn-sm btn-info join-now " style="bottom: 18%;" >Search Members 
+
+
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
-        </svg>
+          </svg>
+
         </a>
+      </div>
+      </div>
       </div>
     </div>
 
 
-    <div class="card bg-light p-3 col-lg-6 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 card-101" >
+    <div class="  p-3 col-lg-6 col-md-12 col-sm-12 col-xs-12 mx-auto mb-2 card-101" >
+      <div class="card bg-light" style="min-height: 240px;">
+        
       <div class="card-body">
         <h2 class="card-title"><strong>Save Upto 30% 
           Off Your Renewal</strong></h2>
         <p class="card-text">
           Refer a friend and receive  a 7.5% discount on renewal for every member that signs up (Upto a maxium of 4 referrals a year)</p>      
-            <a href="#" class="btn btn-sm btn-info join-now">Find Out More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+          <div class="position-absolute bottom-20 start-50 translate-middle-x" style="
+    bottom: 45px;
+">
+            <a href="#" class="btn btn-sm btn-info join-now" style="bottom: 18%;">Find Out More <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
           <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
         </svg>
         </a>
+        </div>
       </div>
     </div>
   </div>
+      </div>
 
 
 </div>
@@ -158,7 +320,7 @@ Content to follow (API)
     <a class="cliniclinks"  href="#">
           <h2>Journals</h2>
     </a>
-    <p style="width: 60%">
+    <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. 
     </p>
   
@@ -173,13 +335,13 @@ Content to follow (API)
 
 <!-- Section -->
 <div class="container sec-width-80">
-  <div class="row mb-5">
+  <div class="row">
   
-  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
     <img class="homepicsizing" src="images/dbscheck.png" alt="dbscheck">
   
   </div>
-  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text ">
     <h1><strong> DBS Checks </strong></h1>
       <p style="padding-top: 2%;">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu cursus euismod. Dictum fusce ut placerat orci nulla. Tincidunt ornare massa eget egestas
@@ -194,10 +356,8 @@ Content to follow (API)
   
 
   <!-- Section -->
-<div class="container sec-width-80 mt-5" >
-  <div class="row mb-5">
-  
-  
+<div class="container sec-width-80 mt-5" style="margin-top: 0 !important;">
+  <div class="row">
   <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text">
     <h1><strong> Recruitment </strong></h1>
       <p style="padding-top: 2%;">
@@ -366,7 +526,7 @@ Blogs
  
   
 <!-- Carousel Bottom 2 -->
-  <div class="Carousel-2 mb-5" style="margin-left: 5%; margin-right: 5%;" >
+  <div class="Carousel-2 mb-5"  >
       <div
         id="carouselControls2"
         class="carousel slide"
@@ -482,7 +642,7 @@ Blogs
 
         <!--Grid column 2-->
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
-          <p style="font-size: smaller;">
+          <p class="footer-text">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
             <br />
 

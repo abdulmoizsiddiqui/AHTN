@@ -3,6 +3,7 @@
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /* Navbar */
 
 .imglogo {
@@ -193,9 +194,11 @@
   padding: 5% 5%;
 }
 .sec-80-text {
-  align-items: center;
-  justify-content: center;
-  padding: 10% 3%;
+  align-items: flex-start !important;
+  justify-content: center !important;
+  padding: 5rem 3% !important;
+  display: flex;
+  flex-direction: column;
 }
 .card-text {
   font-size: small;
@@ -219,7 +222,7 @@
 }
 .card {
   background-color: rgba(0, 0, 0, 0);
-  padding-left: 2%;
+  padding: 0 2%;
   border: 0px;
 }
 .slider {
@@ -320,7 +323,8 @@
 
   color: white;
   padding-top: 3%;
-  padding-bottom: 2%;
+  padding-bottom: 3%;
+  padding: 3rem;
 }
 
 /* FREQUENTLY ASKED QUESTIONS  */
@@ -401,7 +405,7 @@
   background-color: #1c96bc; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #1b95bb, #016d8f);
   color: white;
-  padding-left: 10%;
+  padding: 2.5rem;
 }
 .businesshubSection {
   background-color: #1c96bc; /* For browsers that do not support gradients */
@@ -564,8 +568,8 @@ hr {
 
 @media all and (max-width: 992px) {
   .formcontainer {
-    position: static !important;
-    width: 100%;
+    position: relative !important;
+    width: 90%;
   }
   .formbtn-bottomalign-absolute {
     position: static !important;
@@ -645,9 +649,9 @@ hr {
     margin: 0 auto !important;
   }
   .help-container {
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-    max-width: 100% !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    max-width: 90% !important;
   }
 }
 
@@ -692,4 +696,43 @@ hr {
     top: 40%;
     width: 15%;
   }
+}
+
+
+@media (max-width: 992px) {
+  .businesshubSection, .Carousel-2 {
+      width: 90% !important;
+      max-width: 90% !important;
+      margin: auto !important;
+      margin-bottom: 3rem !important;
+  }
+
+  .Carousel-2 .carousel-inner  {
+      padding: 3rem;
+  }
+}
+
+.carousel-caption {
+  top: 50% !important;
+  transform: translateY(-50%);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: -1.5rem;
+}
+
+@media (max-width: 786px) {
+  .carousel-caption .h1caption {
+    font-size:1.8rem !important;
+  }
+
+  .carousel-caption p {
+    font-size:1.3rem !important;
+    max-width: 78vw;
+    margin: auto;
+  }
+}
+
+html, body {
+  overflow-x: hidden !important;
+  width: 100vw;
 }

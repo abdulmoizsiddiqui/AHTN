@@ -18,7 +18,114 @@
     <title>AHTN | About Us</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
+   
+   <style type="text/css">
+   .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 100%;
+  }
+     .banner {
+         color: white;
+         background-repeat: no-repeat;
+         background-size: cover;
+         height: 500px;
+         width: 100%;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         position: relative;
+     }
+     .full-page-container {
+         max-width: 100%;
+         margin: auto;
+     }
 
+     .sec-width-80 {
+         max-width: 85%;
+         margin: auto;
+         border-radius: 10px;
+     }
+
+     .footer-text {
+      font-size: inherit;
+     }
+
+
+     .bannerp {
+        font-size: 1rem;
+      }
+      .gridtext {
+        font-size: 1rem;
+
+      }
+
+
+      @media (min-width: 1024px){
+        .homepicsizing {
+           width: 100%;
+           max-height: 100%;
+           margin: auto;
+           align-items: center;
+           justify-content: center;
+           padding: 3%;
+        }
+
+        .info-text-section {
+        max-width: 94%;
+       }
+
+        .sec-80-text {
+
+      }
+      .faq-section {
+          max-width: 100%;
+          margin: auto;
+       }
+
+       }
+
+       
+
+      @media (min-width: 1400px){ 
+        .homepicsizing {
+            width: 90%;
+            max-height: 100%;
+            margin: auto;
+            align-items: center;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+        .info-text-section {
+        max-width: 84%;
+       }
+
+        .faq-section {
+          max-width: 80%;
+          margin: auto;
+       }
+      }
+
+      @media (min-width: 1600px) {
+         .homepicsizing {
+          width:90% ;
+          padding: 4%;
+
+        }
+        .sec-80-text {
+
+      }
+      .faq-section {
+          max-width: 80%;
+          margin: auto;
+       }
+
+       .info-text-section {
+
+       }
+      }
+
+   </style>
   </head>
   <body>
     
@@ -100,9 +207,9 @@
 
 <div class="container video-mob-margin">
   <!--Grid row-->
-  <div class="row pt-5  video-mob-margin" style="padding: 0 8%;">
+  <div class="row pt-5  video-mob-margin" style="padding: 0 8%;margin-top: 2%;">
     <!--Grid column 1-->
-    <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  pt-0 pb-3 ">
+    <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12  pt-0 pb-3 ">
       
       <div class="container gridbox mb-3 ">
 
@@ -124,8 +231,9 @@
     </div>
     </div>
 </div>
+<div class="col-lg-2 col-md-2"></div>
 <!-- Grid Column 2 -->
-<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12  pt-0 pb-3">
+<div class="col-lg-5 col-md-12 col-sm-12 col-xs-12  pt-0 pb-3">
       
   <div class="container  gridbox mb-3 ">
 
@@ -156,17 +264,17 @@
 
 
 <!-- section -->
-<div class="container sec-width-80 help-container mb-4 " >
+<div class=" sec-width-80 help-container mb-5 " >
   <div class="row ">
   
-  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 text-center">
     <img class="homepicsizing" src="images/help.png" alt="help">
 
   
   </div>
-  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text" style="padding-top: 7%; padding-bottom: 0;">
+  <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 sec-80-text" >
     <h1><strong> Help Us Be Better </strong> </h1>
-      <p style="padding-top: 2%;">
+      <p style="padding-top: 2%;" class="info-text-section">
         We know that we can always be better and one way of doing this is to listen to others’ perspectives. 
 <br><br>
         If you have something to say about the website, whether you’re a member of the public searching for therapy support or a professional member – please don’t hesitate to get in touch with us. We would love to hear from you.
@@ -220,7 +328,7 @@
 
         <!--Grid column 2-->
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
-          <p style="font-size: smaller;">
+          <p class="footer-text">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
             <br />
 
