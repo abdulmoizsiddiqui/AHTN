@@ -293,7 +293,16 @@
 }
 .continue-reading-link:hover {
   color: white;
-  font-size: 12px;
+}
+.continue-reading-gridlink {
+  text-decoration: none;
+  color: #f79847;
+  font-size: 10px;
+  font-weight: bolder;
+  margin-top: 0;
+}
+.continue-reading-gridlink:hover {
+  color: #ff8119;
 }
 .carousel-title-white {
   color: white;
@@ -351,8 +360,14 @@
 }
 .gridtext {
   font-size: 12px;
+  margin-bottom: 0;
 }
 
+/* Blog Page */
+.GridTitle {
+  margin: 3% 0;
+  font-weight: bolder;
+}
 /* Banner Image/Overlay  Style */
 .banner {
   color: white;
@@ -466,6 +481,18 @@ hr {
 }
 .form-container {
   margin: auto;
+}
+.contact-form {
+  background-color: #1c96bc; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #1b95bb, #016d8f);
+  color: white;
+  font-size: 14px;
+  padding: 5% 8%;
+  border-radius: 5px;
+}
+.contact-form input {
+  padding: 2%;
+  margin-top: 1%;
 }
 
 /* Search Page */
@@ -698,17 +725,17 @@ hr {
   }
 }
 
-
 @media (max-width: 992px) {
-  .businesshubSection, .Carousel-2 {
-      width: 90% !important;
-      max-width: 90% !important;
-      margin: auto !important;
-      margin-bottom: 3rem !important;
+  .businesshubSection,
+  .Carousel-2 {
+    width: 90% !important;
+    max-width: 90% !important;
+    margin: auto !important;
+    margin-bottom: 3rem !important;
   }
 
-  .Carousel-2 .carousel-inner  {
-      padding: 3rem;
+  .Carousel-2 .carousel-inner {
+    padding: 3rem;
   }
 }
 
@@ -722,17 +749,18 @@ hr {
 
 @media (max-width: 786px) {
   .carousel-caption .h1caption {
-    font-size:1.8rem !important;
+    font-size: 1.8rem !important;
   }
 
   .carousel-caption p {
-    font-size:1.3rem !important;
+    font-size: 1.3rem !important;
     max-width: 78vw;
     margin: auto;
   }
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden !important;
   width: 100vw;
 }
