@@ -15,54 +15,12 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
-    <title>AHTN | Find a Therapist</title>
+    <title>AHTN | Search </title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
-     <style type="text/css">
-     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
-      max-width: 100%;
-    }
-       .banner {
-           color: white;
-           background-repeat: no-repeat;
-           background-size: cover;
-           height: 500px;
-           width: 100%;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           position: relative;
-       }
-       .full-page-container {
-           max-width: 100%;
-           margin: auto;
-       }
 
-       .sec-width-80 {
-           max-width: 90%;
-           justify-content: center;
-           align-items: center;
-           margin: auto;
-       }
-
-       .footer-text {
-         font-size: inherit;
-       }
-
-       .bannerp {
-        font-size: 1rem;
-      }
-
-      .carousel-caption {
-          top: 38%;
-          bottom: 30%;
-          position: absolute;
-      }
-
-     </style>
   </head>
-  <body>
+  
     
   <header>
     <nav class="navbar navbar-expand-lg bg-white">
@@ -122,190 +80,237 @@
       </div>
     </nav>
   </header>
+  <br><br>
+  <body>
+           <div class="full-page-container" >
 
-         <div class="full-page-container" >
+<!-- Container -->
+<div class="search-container" >
+  <!-- Row -->
+  <div class="row" >
+  <!-- Grid 1 -->
+<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mb-3">
+<h5><strong> Refine your search</strong> </h5> <hr> <br>
+<h6><strong> Location   </strong><span> <i class="fa fa-map-marker  contact-icons" aria-hidden="true"></i></span>
+</h6>
+<div class="input-group mb-3">
+ <input type="search" class="form-control" placeholder="Enter Your Location" aria-label="Enter Your Location" aria-describedby="button-addon2">
+  <a href="#" class="btn infobutton" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i>
+  </a>
+</div>
+<br>
+<div class=" custom-range" >
+  Within <span id="demo" style="border: 0.5px solid; padding: 3px;"></span> miles
+  <br>
+<br>
+  <input type="range" min="1" max="60" value="15" class="slider" id="myRange">  <span style="font-size: smaller"> 
+  </div>
+<br>
+  <hr>
+  <br>
 
+  <div>
+  <strong>Therapy </strong>
+  <select class="form-select p-2 mt-1 mb-3" aria-label="Default select example">
+    <option selected>Any</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+  <a href="#" style="color: #f79847;"> Select Multiple</a>
+</div>
+<br>
+<hr>
+<br>
+<div>
+<h6><strong>Type of practitioner </strong></h6>
+<div class="form-check ">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+  <label class="form-check-label" for="flexCheckDefault">
+    Individuals
+  </label>
+</div>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
+  <label class="form-check-label" for="flexCheckDefault2">
+    Clinics
+  </label>
+</div>
+<br>
+</div>
+<hr>
+<br>
+<h6><strong>Accessibility </strong></h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
+  <label class="form-check-label" for="flexCheckDefault3">
+    Wheelchair-user access
+  </label>
+</div>
+<br>
+<hr>
+<br>
+<h6><strong>Professional body</strong></h6>
+<div class="form-check">
+  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
+  <label class="form-check-label" for="flexCheckDefault4">
+    Member of a professional body
+  </label>
+</div>
+<br>
+<hr>
+<br>
+<div>
+  <h6 style="padding-bottom: 2px;"><strong>Therapy </strong></h6>
+  <select class="form-select" aria-label="Default select example">
+    <option selected>Any</option>
+    <option value="1">One</option>
+    <option value="2">Two</option>
+    <option value="3">Three</option>
+  </select>
+</div>
+<br>
+<hr>
+<br>
+<h6 style="padding-bottom: 2px;"><strong> Keyword   </strong>
+</h6>
+<div class="input-group mb-3">
+ <input type="text" class="form-control" placeholder="Enter keyword(s)" aria-label="Enter keyword(s)" aria-describedby="button-addon2">
+  <a href="#" class="btn infobutton" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i>
+  </a>
+</div>
+<br>
+<hr>
+</div>
+<!-- Grid 2 -->
+<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 mb-3 pt-3" style="padding-left: 3%;">
 
+<h3><strong> Therapists in and near <span style="color: #1c96bc;"> Long Melford </span></strong></h3>
 
-<!-- Background Image Overlay -->
-<div class="banner ">
-  <h2 style="font-family: Arial, Helvetica, sans-serif; font-weight: bold; z-index: 1;">Frequently Asked Questions</h2>
-   <br> 
-   <p class="bannerp" >
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum est ultricies integer quis. Iaculis urna id volutpat lacus laoreet. Mauris vitae ultricies leo integer malesuada. Ac odio tempor orci dapibus ultrices in. Egestas diam in arcu
+<div class="bg-light p-3 ">
+  <p style="margin: 0;">All Therapists comply with <a href="#" style="color: #f79847;"> our policy. </a></p>
+</div>
+<p style="font-size: smaller;"><span style="font-weight: bold;">46 </span> Results within <span>30</span> miles </p>
+
+                          <!-- Profile Section -->
+
+        <!-- Profile 1 -->
+<!-- Row -->
+<div class="row pt-3">
+  <!-- Image Col -->
+  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center" >
+    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
+  </div>
+<!-- Data Col -->
+  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
+    <div class="mob-view-center">
+    <a class="profilelinkheading " href="#"> Dorothy Purnell </a>
+    </div>
+    <p style="font-size: 14px"> 
+      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
+      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
     </p>
-  
-  <div class="color-overlay"></div>
- </div>
-  
-<!-- Accordion -->
-<div class="container pt-4 mb-4 mx-auto" style="align-items: center;justify-content: center ;">
-<div class="row accordion" style="padding: 5% 10%"> 
-  <!-- Accordian 1 -->
-<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 accordion mb-5" id="accordionExample">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-        <strong> What is Allied Health Therapy? </strong>
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample" aria-labelledby="panelsStayOpen-headingOne">
-      <div class="accordion-body ">
-        Allied Health Therapies are a group of professionals who make up part of standard/ conventional health care and education workforce.
-        Allied Health professionals often work alongside one another in a coordinated way – for example, a person who is recovering from a stroke may need support from multiple therapists including physiotherapists, speech and language therapists and occupational therapists, among others.
-        <br><br>
-        Allied Health professionals also frequently work in close contact with some other professionals – such as psychologists and dyslexia specialists/ specialist teachers. For example, a dyslexia assessor may want to find out about a child’s language and cognitive skills, so may call on the support of a speech and language therapist and/ or educational psychologist.
-          </div>
-    </div>
+    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
+    
+    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
   </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-        <strong>When might support from an allied health professional be useful?</strong>
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample" aria-labelledby="panelsStayOpen-headingTwo">
-      <div class="accordion-body">
-There are many conditions that someone might have that require the support of one or more of the allied health professions. <br><br>
-People may be experiencing chronic or acute physical problems that will need the help of a physiotherapist. Other people might have hearing difficulties who need the help of an audiologist and/ or a speech and language therapist. <br><br>
-Many people with pervasive developmental disorders such as autism, dyspraxia and ADHD have multiple areas of need. People with multiple areas of need ideally require a team of allied health and/ or education professionals to support them and help them achieve the most they can. <br><br>
-Ultimately, each and every person who needs help is an individual who has a unique profile. Your individual needs will determine which of the therapies you need. 
- </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-<strong>Does everyone respond to therapy? </strong>      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample" aria-labelledby="panelsStayOpen-headingThree">
-      <div class="accordion-body">
-It is not always possible to determine how each person will respond to therapy and there is often more than one approach within each therapy area that different professionals have expertise in. Research shows that all these therapies are beneficial, but some people may respond better to one approach than another. For this reason, it’s not always possible to say right away whether this professional’s approach will be the best one for you. <br><br>
-An important thing to remember when embarking on any therapy journey is the ‘plan, do, review’ approach: that is, your chosen therapist should inform you of their plan and approach, you then try it and after an agreed time frame you both review its success from yours (the client’s) and their (the practitioner’s) perspectives. That way you can both make informed decisions about whether this approach is working for you or whether you need to try a different approach (whether with the same, or a different, therapist). <br><br>
-This open and honest process helps you be committed and develop the trusting relationship that is needed between you and your therapist/s.
-</div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-     <strong>Are therapists/practitioners regulated?</strong>
-      </button>
-    </h2>
-    <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample" aria-labelledby="panelsStayOpen-headingFour">
-      <div class="accordion-body">
-All the allied health professions and psychologists are required to be registered with a professional body allowing them practice using the UK protected professional titles. <br><br>
-Overseas qualified therapists also require registration with a professional body. <br><br>
-This means that the professionals listed on AHTNetwork have a set standard they must adhere to and they must continue to undergo training and professional clinical supervision on a regular basis. <br><br>
-All therapists listed on the Allied Health and Therapy Network directory are verified as belonging to a professional registration body.
-   </div>
-    </div>
-  </div>
-</div>
-<!-- 2nd Accordion Start -->
-<div class="col-lg-6 col-md-12 col-sm-12 col-xs-12 accordion accordion" id="accordionExample2">
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingOne">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-<Strong>How can I be assured of a practitioners' professionalism?</Strong>      </button>
-    </h2>
-    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample2">
-      <div class="accordion-body">
-Our verification process ensures that we only list therapists who have provided proof of a relevant qualification and proof of registration with a professional body. Once a therapist has been through our verification process, we will display a verification stamp that you can see on their profile as an indication of their professionalism. We will signpost their professional body and how you can verify their registration details with their professional body. <br><br>
-Overseas qualified and registered therapists are colour coded differently from UK registered professionals so you can easily distinguish between the different registration countries. <br><br>
-We allow overseas registered therapists to list on our directory as long as they can prove they hold a current professional registration in their qualifying country. We feel it is important to allow overseas registered therapists to list on our directory as they will practice in the first language of a client and may be able to provide stronger levels of support in those clients’ first languages.
- </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingTwo">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-<strong>What is a professional body? </strong>      </button>
-    </h2>
-    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample2">
-      <div class="accordion-body">
-There are various professional bodies. <br><br>
-The professional body sets the standards that the therapists must work to, including providing their code of ethics and establishing a complaints procedure. <br><br>
-Only UK registered therapists can use certain professional titles. For example, only a language therapist registered with the Health Care Professions Council can use the titles: <i> Speech Therapist or Speech and Language Therapist.</i> <br><br>
-You may come across other language professionals on our site calling themselves <i>Speech Pathologists</i> or <i>Logopedas</i>. <i>Speech Pathologist</i> is a term commonly used in Australia and the United States. <i>Logopeda</i>, or similar, is the title used across most of Europe. <br><br>
-For the benefit of the members of the public searching for help on our website, the professional specialism will be listed next to the title if the therapist is an overseas registered professional (e.g. <i> Logopeda </i> –<strong> specialist area</strong>: speech, language and communication).
- 
-  </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingThree">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-  <strong>What is registration/accreditation with a professional body? </strong>
-      </button>
-    </h2>
-    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample2">
-      <div class="accordion-body">
-Being registered/accredited with a professional body means that a therapist has achieved a substantial level of training and experience approved and recognised by their (country based) professional body. It ensures that the therapist is who they say they are, and they have the qualifications required to practice in their profession. </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFour">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-        <strong>Can I get these therapies on the NHS or through my child’s school? </strong>
-      </button>
-    </h2>
-    <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample2">
-      <div class="accordion-body">
-        As the allied health professions are considered standard therapies, you can. You can also get support for some of them through schools who buy in services from some of these professions (e.g. educational psychology, speech and language therapy, occupational therapy, specialist teachers including dyslexia assessors etc).
-<br><br>
-However, NHS waiting lists can be very long and, although a school service can be effective, the caseloads in schools tend to be large. Therapists are often stretched and cannot give the intensive 1:1 therapy that someone might benefit more from if they have a more severe need and need 1:1 support.
+  <!-- Buttons Col -->
+  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
 
-   </div>
-    </div>
-  </div>
-  <div class="accordion-item">
-    <h2 class="accordion-header" id="headingFive">
-      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-  <strong>How do I know which therapist to choose? </strong>
-      </button>
-    </h2>
-    <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample2">
-      <div class="accordion-body">
-AHTNetwork lists lots of allied health (and associated) professionals nationwide, so we understand that with all the choice available, it might be difficult to decide what you want and who you'd like to go and see. <br><br>
-Obviously, you may already have a good idea of the primary areas of need you need help with, so there’s a drop down of the different therapy areas to help you narrow down your search for the relevant professionals. <br><br>
-Factors such as what language you want your support in will necessarily be high on your list. <br><br>
-Our member’s listings state the languages they practice in. <br><br>
-When you meet with one therapist, they may help you identify other areas of need you may have. They will be able to help you locate another therapist with a different specialism using our <i> member to member </i> contact, or they can conduct a search with you to identify another professional. <br><br>
-We recommend you contact a few therapists and have an initial discussion with them to get a feel for how they approach a problem. Most therapists will offer a complementary telephone discussion to establish whether they have the expertise to help you with your individual problem. <br><br>
-Useful things to ask them could include: <br><br>
--	How will they approach your particular problem/ what can they do to try and help you with it?
-<br><br>
--	Is there a specific approach they take/ programme they use when working with someone with your particular problem? What does that look like?
-<br><br>
--	Where will sessions take place? (some therapists come to you/ others have clinics); others work remotely/ online.
-<br><br>
--	What are their costs and what is included in their costs (session charges on a website may look expensive, but they may also include the administrative paperwork that is generated from therapy sessions. They may also include ‘catch-ups’ between sessions; 
-<br><br>
--	On the other hand, charges may look cheap but not include any of the ‘extra’ work). Ask them if they charge extra for travel and/ or the administrative tasks related to sessions (all registered health professionals are required to take detailed notes about each session they deliver).
-<br><br>
--	How long is a typical session and how many sessions would they recommend? (this can sometimes be difficult to answer as everyone is an individual and responds in different ways, but some specific therapy approaches do have a general ‘timeframe’. To give you a more accurate response to this, the therapist may need to do some assessment first).<br><br>
-And, it is very important for you to ask the following:
-<ul>
-  <li> Is your DBS up to date? </li>
-  <li> Is your registration up to date? </li>
-</ul>
-If they respond no to either of these questions, please let us know at: <a href="hello@ahtnetwork.com"> hello@ahtnetwork.com</a>, as we’ll need to contact them also.
+    <a href="#" class="btn btn-secondary btn-list bookmark-btn-sm" >
+      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
 
-    </div>
+    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
+Email Us    </a>
+
+<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
+
   </div>
 </div>
-</div>
-</div>
-</div>
-<!-- Accordion End -->
 
+<br>
+<hr>
+<br>
+<!-- Profile 2 -->
 
+<!-- Row -->
+<div class="row pt-3">
+  <!-- Image Col -->
+  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center " >
+    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
+  </div>
+<!-- Data Col -->
+  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
+    <div class="mob-view-center">
+    <a class="profilelinkheading" href="#"> Dorothy Purnell </a>
+    </div>
+    <p style="font-size: 14px;"> 
+      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
+      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
+    </p>
+    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
+    
+    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
+  </div>
+  <!-- Buttons Col -->
+  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
 
+    <a href="#" class="btn btn-secondary btn-list bookmark-btn-sm" >
+      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
+
+    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
+Email Us    </a>
+
+<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
+
+  </div>
+</div>
+<br>
+<hr>
+<br>
+<!-- Profile 3 -->
+<!-- Row -->
+<div class="row pt-3">
+  <!-- Image Col -->
+  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center " >
+    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
+  </div>
+<!-- Data Col -->
+  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
+    <div class="mob-view-center">
+    <a class="profilelinkheading" href="#"> Dorothy Purnell </a>
+    </div>
+    <p style="font-size: 14px"> 
+      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
+      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
+    </p>
+    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
+    
+    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
+  </div>
+  <!-- Buttons Col -->
+  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
+
+    <a href="#" class="btn btn-secondary  btn-list bookmark-btn-sm" >
+      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
+
+    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
+Email Us    </a>
+
+<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
+
+  </div>
+</div>
+<!-- profile end -->
+<br>
+<hr>
+<br>
+</div>
+  </div>
+</div>
 
 <!-- Full Body Container End -->
             </div>
-
 
 
 <section class="footersec mb-0">
@@ -326,7 +331,7 @@ If they respond no to either of these questions, please let us know at: <a href=
 
         <!--Grid column 2-->
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
-          <p class="footer-text">
+          <p style="font-size: smaller;">
 Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
             <br />
 
@@ -444,7 +449,16 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit
 
   
   
-
+<!-- Slider -->
+<script>
+  var slider = document.getElementById("myRange");
+  var output = document.getElementById("demo");
+  output.innerHTML = slider.value;
+  
+  slider.oninput = function() {
+    output.innerHTML = this.value;
+  }
+  </script>
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

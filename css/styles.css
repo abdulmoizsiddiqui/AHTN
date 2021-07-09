@@ -307,12 +307,19 @@
 .carousel-title-white {
   color: white;
   font-weight: bold;
+  font-size: 18px;
+  text-decoration: none;
+}
+.carousel-title-white:hover {
+  text-decoration: underline;
+  color: white;
 }
 .carousel-p-12 {
   font-size: 12px;
   line-height: 1.15;
   text-align: justify;
   color: white;
+  padding-top: 5px;
 }
 
 .carousel-grid {
@@ -365,8 +372,12 @@
 
 /* Blog Page */
 .GridTitle {
-  margin: 3% 0;
   font-weight: bolder;
+  text-decoration: none;
+  color: black;
+}
+.GridTitle:hover {
+  color: #f79847;
 }
 /* Banner Image/Overlay  Style */
 .banner {
@@ -383,7 +394,7 @@
   position: relative;
 }
 .bannerp {
-  font-size: smaller;
+  font-size: 1rem;
   z-index: 1;
   width: 70%;
 
@@ -428,7 +439,11 @@
   color: white;
   padding-left: 2%;
   padding-right: 2%;
+  border-radius: 10px !important;
+  margin-top: 100px !important;
+  max-width: 85% !important;
 }
+
 /* Email Page */
 hr {
   padding: 1px;
@@ -560,6 +575,9 @@ hr {
   text-decoration: none;
   font-size: small;
   font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+.footer-text {
+  font-size: 11px !important;
 }
 /* Footer Columns */
 .ftimagecol {
