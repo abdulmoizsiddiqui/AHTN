@@ -22,53 +22,23 @@
      .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
       max-width: 100%;
     }
-       .banner {
-           color: white;
-                     background: #000 url(images/BlogBanner.png);
-
-           background-repeat: no-repeat;
-           background-size: cover;
-           height: 500px;
-           width: 100%;
-           display: flex;
-           flex-direction: column;
-           justify-content: center;
-           align-items: center;
-           position: relative;
-       }
+     
        .full-page-container {
            max-width: 100%;
            margin: auto;
        }
 
-       .sec-width-80 {
-           max-width: 90%;
-           justify-content: center;
-           align-items: center;
-           margin: auto;
-       }
-
-       .footer-text {
-         font-size: inherit;
-       }
-
-
-      .carousel-caption {
-          top: 38%;
-          bottom: 30%;
-          position: absolute;
-      }
+      
       .colorwrap{
          color: white;
           background-color: #1c96bc; /* For browsers that do not support gradients */
   background-image: linear-gradient(to right, #1b95bb, #016d8f);
-  margin-top: 1%;
-  padding: 3% 1%;
   border-radius: 10px;
+  width: 600px;
       }
      </style>
   </head>
-  <body>
+ 
     
   <header>
     <nav class="navbar navbar-expand-lg bg-white">
@@ -128,10 +98,9 @@
       </div>
     </nav>
   </header>
-
-         <div class="full-page-container" style="background: url(images/findatherapist.jpg); background-size: contain;">
-
-<div class="container colorwrap col-lg-4 col-md-8 col-sm-8 col-xs-8 mx-auto mb-5"  >
+ <body style="background-color: #f1f1f1;">
+         <div class="full-page-container" style="margin: 6%;" >
+<div class="container colorwrap mx-auto " style=" padding: 5% ;margin: 2% 15%;"  >
 					<h3 class=" pb-4"><strong>Find</strong> a Therapist</h3>
 					<div >
 						<input type="text" placeholder="Postcode*" class="form-control" id="inputZip" style="padding-bottom: 3%;padding-top: 3%;">
@@ -147,14 +116,14 @@
 							<option value="2">Two</option>
 							<option value="3">Three</option>
 						</select></div>
-						<div class="pt-3">
+						<div class="pt-3 mb-5">
 							<select class="form-select" aria-label="Default select example" style="padding-top: 3%; padding-bottom: 3%">
 								<option selected>Age Groups</option>
 								<option value="1">One</option>
 								<option value="2">Two</option>
 								<option value="3">Three</option>
 							</select></div>
-<br>
+
 								<a href="#" class="btn btn-info infobutton  " style="padding: 2% 0%;width: 45% ; margin-left: 0;"> Reset </a>
 
 								<a href="findatherapist.html" class="btn btn-info join-now pl-2 " style="padding: 2% 0%; width: 45%; margin-left: 5%;  "> Search <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
@@ -171,7 +140,7 @@
 
 
 
-<section class="footersec mb-0">
+<section class="footersec mb-0" style="position:sticky; bottom: 0px">
   <!-- Footer -->
   <footer class="footerbg text-black  text-md-start mb-0" >
     <!-- Grid container -->
