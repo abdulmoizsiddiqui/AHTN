@@ -15,12 +15,38 @@
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
   />
-    <title>AHTN | Search </title>
+    <title>AHTN | Find a Therapist</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
+     <style type="text/css">
+     .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+      max-width: 100%;
+    }
+     
+       .full-page-container {
+           max-width: 100%;
+           margin: auto;
+          
+        
+       }
 
+      
+      .colorwrap{
+         color: white;
+          background-color: #1c96bc; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #1b95bb, #016d8f);
+  border-radius: 10px;
+  width: 600px;
+      }
+	 @media all and (min-width: 1440px) {
+  .full-page-container {
+          height: 80vh;
+        
+       }
+	 }
+     </style>
   </head>
-  
+ 
     
   <header>
     <nav class="navbar navbar-expand-lg bg-white">
@@ -48,7 +74,7 @@
                 <a class="nav-link" href="about.html">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="findatherapist.html">Find a Therapist</a>
+                <a class="nav-link  active" aria-current="page"  href="findatherapist.html">Find a Therapist</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="news.html">News</a>
@@ -80,385 +106,198 @@
       </div>
     </nav>
   </header>
-  <br><br>
-  <body>
-           <div class="full-page-container" >
 
-<!-- Container -->
-<div class="search-container" >
-  <!-- Row -->
-  <div class="row" >
-  <!-- Grid 1 -->
-<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 mb-3">
-<h5><strong> Refine your search</strong> </h5> <hr> <br>
-<h6><strong> Location   </strong><span> <i class="fa fa-map-marker  contact-icons" aria-hidden="true"></i></span>
-</h6>
-<div class="input-group mb-3">
- <input type="search" class="form-control" placeholder="Enter Your Location" aria-label="Enter Your Location" aria-describedby="button-addon2">
-  <a href="#" class="btn infobutton" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i>
-  </a>
-</div>
-<br>
-<div class=" custom-range" >
-  Within <span id="demo" style="border: 0.5px solid; padding: 3px;"></span> miles
-  <br>
-<br>
-  <input type="range" min="1" max="60" value="15" class="slider" id="myRange">  <span style="font-size: smaller"> 
-  </div>
-<br>
-  <hr>
-  <br>
 
-  <div>
-  <strong>Therapy </strong>
-  <select class="form-select p-2 mt-1 mb-3" aria-label="Default select example">
-    <option selected>Any</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-  <a href="#" style="color: #f79847;"> Select Multiple</a>
-</div>
-<br>
-<hr>
-<br>
-<div>
-<h6><strong>Type of practitioner </strong></h6>
-<div class="form-check ">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-  <label class="form-check-label" for="flexCheckDefault">
-    Individuals
-  </label>
-</div>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault2">
-  <label class="form-check-label" for="flexCheckDefault2">
-    Clinics
-  </label>
-</div>
-<br>
-</div>
-<hr>
-<br>
-<h6><strong>Accessibility </strong></h6>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault3">
-  <label class="form-check-label" for="flexCheckDefault3">
-    Wheelchair-user access
-  </label>
-</div>
-<br>
-<hr>
-<br>
-<h6><strong>Professional body</strong></h6>
-<div class="form-check">
-  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault4">
-  <label class="form-check-label" for="flexCheckDefault4">
-    Member of a professional body
-  </label>
-</div>
-<br>
-<hr>
-<br>
-<div>
-  <h6 style="padding-bottom: 2px;"><strong>Therapy </strong></h6>
-  <select class="form-select" aria-label="Default select example">
-    <option selected>Any</option>
-    <option value="1">One</option>
-    <option value="2">Two</option>
-    <option value="3">Three</option>
-  </select>
-</div>
-<br>
-<hr>
-<br>
-<h6 style="padding-bottom: 2px;"><strong> Keyword   </strong>
-</h6>
-<div class="input-group mb-3">
- <input type="text" class="form-control" placeholder="Enter keyword(s)" aria-label="Enter keyword(s)" aria-describedby="button-addon2">
-  <a href="#" class="btn infobutton" type="button" id="button-addon2"><i class="fa fa-search" aria-hidden="true"></i>
-  </a>
-</div>
-<br>
-<hr>
-</div>
-<!-- Grid 2 -->
-<div class="col-lg-9 col-md-12 col-sm-12 col-xs-12 mb-3 pt-3" style="padding-left: 3%;">
+ <body style="background-color: #f1f1f1; position: relative;">
 
-<h3><strong> Therapists in and near <span style="color: #1c96bc;"> Long Melford </span></strong></h3>
+         <div class="full-page-container" style="margin: 6%;" >
 
-<div class="bg-light p-3 ">
-  <p style="margin: 0;">All Therapists comply with <a href="#" style="color: #f79847;"> our policy. </a></p>
-</div>
-<p style="font-size: smaller;"><span style="font-weight: bold;">46 </span> Results within <span>30</span> miles </p>
+<div class="container colorwrap mx-auto my-auto" style=" padding: 5% ;margin: 5% 15%;"  >
+					<h3 class=" pb-4"><strong>Find</strong> a Therapist</h3>
+					<div >
+						<input type="text" placeholder="Postcode*" class="form-control" id="inputZip" style="padding-bottom: 3%;padding-top: 3%;">
+					</div>
 
-                          <!-- Profile Section -->
+					<div class=" pt-4 pb-1" >
+						<input type="range" min="1" max="60" value="15" class="slider" id="myRange">  <span style="font-size: 12px">  Miles: <span id="demo"></span></span>
+					</div>
+					<div class="pt-4 pb-1">
+						<select class="form-select" aria-label="Default select example" style="padding-top: 3%; padding-bottom: 3%;">
+							<option selected>Professions</option>
+							<option value="1">One</option>
+							<option value="2">Two</option>
+							<option value="3">Three</option>
+						</select></div>
+						<div class="pt-3 mb-5">
+							<select class="form-select" aria-label="Default select example" style="padding-top: 3%; padding-bottom: 3%">
+								<option selected>Age Groups</option>
+								<option value="1">One</option>
+								<option value="2">Two</option>
+								<option value="3">Three</option>
+							</select></div>
 
-        <!-- Profile 1 -->
-<!-- Row -->
-<div class="row pt-3">
-  <!-- Image Col -->
-  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center" >
-    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
-  </div>
-<!-- Data Col -->
-  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
-    <div class="mob-view-center">
-    <a class="profilelinkheading " href="#"> Dorothy Purnell </a>
-    </div>
-    <p style="font-size: 14px"> 
-      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
-      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
-    </p>
-    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
-    
-    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
-  </div>
-  <!-- Buttons Col -->
-  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
+								<a href="findatherapist.html" class="btn btn-info infobutton  " style="padding: 2% 0%;width: 45% ; margin-left: 0;"> Reset </a>
 
-    <a href="#" class="btn btn-secondary btn-list bookmark-btn-sm" >
-      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
+								<a href="findatherapist.html" class="btn btn-info join-now pl-2 " style="padding: 2% 0%; width: 45%; margin-left: 5%;  "> Search <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+									<path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"/>
+								</svg></a> 
+							</div>
 
-    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
-Email Us    </a>
+ 
 
-<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
 
-  </div>
-</div>
-
-<br>
-<hr>
-<br>
-<!-- Profile 2 -->
-
-<!-- Row -->
-<div class="row pt-3">
-  <!-- Image Col -->
-  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center " >
-    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
-  </div>
-<!-- Data Col -->
-  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
-    <div class="mob-view-center">
-    <a class="profilelinkheading" href="#"> Dorothy Purnell </a>
-    </div>
-    <p style="font-size: 14px;"> 
-      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
-      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
-    </p>
-    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
-    
-    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
-  </div>
-  <!-- Buttons Col -->
-  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
-
-    <a href="#" class="btn btn-secondary btn-list bookmark-btn-sm" >
-      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
-
-    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
-Email Us    </a>
-
-<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
-
-  </div>
-</div>
-<br>
-<hr>
-<br>
-<!-- Profile 3 -->
-<!-- Row -->
-<div class="row pt-3">
-  <!-- Image Col -->
-  <div class="col-lg-2 col-md-3 col-sm-3 col-xs-3 mob-view-center " >
-    <img class="profileimageround" src="images/profile-img.jpeg" alt="profileimg">
-  </div>
-<!-- Data Col -->
-  <div class="col-lg-7 col-md-9 col-sm-9 col-xs-9 pb-3">
-    <div class="mob-view-center">
-    <a class="profilelinkheading" href="#"> Dorothy Purnell </a>
-    </div>
-    <p style="font-size: 14px"> 
-      <span> <i class="fa fa-map-marker  contact-icons"></i> Bury St Edmunds, Suffolk, IP32 6EG </span>
-      <span> • Within <span style="font-weight: bold;">13</span> miles of Long Melford</span>
-    </p>
-    <p>Acupuncture, cosmetic Acupuncture, Hypnotherapy Smoking/slimming, Food allergy testing</p>
-    
-    <p> <span class="therapytype bg-light">Chinese acupuncture</span> </p>
-  </div>
-  <!-- Buttons Col -->
-  <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 button-col" >
-
-    <a href="#" class="btn btn-secondary  btn-list bookmark-btn-sm" >
-      <i class="fa fa-bookmark-o" aria-hidden="true"></i> <span class="removetext"> Save Profile </span> </a>
-
-    <a href="#" class="btn btn-info detailbtn btn-list email-sm-btn"> <i class="fa fa-envelope contact-icons" aria-hidden="true"></i>
-Email Us    </a>
-
-<a href="#" class="btn btn-info infobutton btn-list view-profile-sm-btn"> View Profile</a>
-
-  </div>
-</div>
-<!-- profile end -->
-<br>
-<hr>
-<br>
-</div>
-  </div>
-</div>
 
 <!-- Full Body Container End -->
             </div>
 
 
+
 <section class="footersec mb-0">
-  <!-- Footer -->
-  <footer class="footerbg text-black  text-md-start mb-0" >
-    <!-- Grid container -->
-    <div class="container  pt-5 pb-3";>
-      <!--Grid row-->
-      <div class="row footer-row-sm-center" >
-        <!--Grid column 1-->
-        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-4 mb-4 ftimagecol">
-          <img
-            class="footerimage"
-            src="images/AHTN-Logotype-Marque-BW-High-Res.png"
-            alt="footerimage"
-          />
-        </div>
+	<!-- Footer -->
+	<footer class="footerbg text-black  text-md-start mb-0" >
+		<!-- Grid container -->
+		<div class="container  pt-5 pb-3";>
+			<!--Grid row-->
+			<div class="row footer-row-sm-center" >
+				<!--Grid column 1-->
+				<div class="col-lg-2 col-md-12 col-sm-12 col-xs-4 mb-4 ftimagecol">
+					<img
+					class="footerimage"
+					src="images/AHTN-Logotype-Marque-BW-High-Res.png"
+					alt="footerimage"
+					/>
+				</div>
 
-        <!--Grid column 2-->
-        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
-          <p style="font-size: smaller;">
-Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
-            <br />
+				<!--Grid column 2-->
+				<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12  text-dark mb-4  footer-col1 footer-row-sm-center" >
+					<p class="footer-text">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia animi suscipit atque quos veritatis exercitationem placeat. Ipsa ratione vero unde!                           <br />
+						<br />
 
-          © 2020 AHTN <span style="padding-left: 10px;"> Designed by -dash </span>
-          </p>
-        </div>
+						© 2020 AHTN <span style="padding-left: 10px;"> Designed by -dash </span>
+					</p>
+				</div>
 
-        <!--Grid column 3-->
-        <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-dark footer-col2 mb-4 footer-row-sm-center"  >
-          <p class="footerp text-dark"> 
-            <a href="#!"><i class="fa fa-phone footer-icon "></i></a> 00000 000 000
-          </p>
-          <p class="footerp text-dark">
-           <a href="#!"><i class="fa fa-envelope footer-icon"></i></a> 
-            hello@ahtnetwork.com
-          </p>
-          <p class="footerp text-dark">
-            <a href="#!">  <i class="fa fa-facebook-f footer-icon"> </i></a>
-            <a href="#!"><i class="fa fa-instagram footer-icon"></i></a>
-             <a href="#!"><i class="fa fa-twitter footer-icon" aria-hidden="true"></i></a>
-             <a href="#!"><i class="fa fa-whatsapp footer-icon" aria-hidden="true"></i></a>
-             <a href="#!"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i></a>
-
-
+				<!--Grid column 3-->
+				<div class="col-lg-3 col-md-12 col-sm-12 col-xs-12 text-dark footer-col2 mb-4 footer-row-sm-center"  >
+					<p class="footerp text-dark"> 
+						<a href="#!"><i class="fa fa-phone footer-icon "></i></a> 00000 000 000
+					</p>
+					<p class="footerp text-dark">
+						<a href="#!"><i class="fa fa-envelope footer-icon"></i></a> 
+						hello@ahtnetwork.com
+					</p>
+					<p class="footerp text-dark">
+						<a href="#!">  <i class="fa fa-facebook-f footer-icon"> </i></a>
+						<a href="#!"><i class="fa fa-instagram footer-icon"></i></a>
+						<a href="#!"><i class="fa fa-twitter footer-icon" aria-hidden="true"></i></a>
+						<a href="#!"><i class="fa fa-whatsapp footer-icon" aria-hidden="true"></i></a>
+						<a href="#!"><i class="fa fa-linkedin footer-icon" aria-hidden="true"></i></a>
 
 
-          </p>
-        </div>
 
-        <!--Grid column 4-->
-        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 mb-3 footer-col3 " >
-          <ul class="list-unstyled mb-0 ">
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >Home</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >About</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-        
-                >Find a Therapist</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >News</a
-              >
-            </li>
-          </ul>
-        </div>
 
-        <!--Grid column 5-->
-        <div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 footer-col4" >
-          <ul class="list-unstyled">
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >Contact</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >Privacy & Terms</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >Become a Member</a
-              >
-            </li>
-            <li>
-              <a
-                href="#!"
-                class="text-dark"
-                
-                >Log in</a
-              >
-            </li>
-          </ul>
-        </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </div>
-    <!-- Grid container -->
-  </footer>
-  <!-- Footer -->
+					</p>
+				</div>
+
+				<!--Grid column 4-->
+				<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 mb-3 footer-col3 " >
+					<ul class="list-unstyled mb-0 ">
+						<li>
+							<a
+							href="index.html"
+							class="text-dark"
+
+							>Home</a
+							>
+						</li>
+						<li>
+							<a
+							href="about.html"
+							class="text-dark"
+
+							>About</a
+							>
+						</li>
+						<li>
+							<a
+							href="findatherapist.html"
+							class="text-dark"
+
+							>Find a Therapist</a
+							>
+						</li>
+						<li>
+							<a
+							href="news.html"
+							class="text-dark"
+
+							>News</a
+							>
+						</li>
+					</ul>
+				</div>
+
+				<!--Grid column 5-->
+				<div class="col-lg-2 col-md-12 col-sm-12 col-xs-12 footer-col4" >
+					<ul class="list-unstyled">
+						<li>
+							<a
+							href="contact.html"
+							class="text-dark"
+
+							>Contact</a
+							>
+						</li>
+						<li>
+							<a
+							href="privacyandterms.html"
+							class="text-dark"
+
+							>Privacy & Terms</a
+							>
+						</li>
+						<li>
+							<a
+							href="memberbenefits.html"
+							class="text-dark"
+
+							>Become a Member</a
+							>
+						</li>
+						<li>
+							<a
+							href="login.html"
+							class="text-dark"
+
+							>Log in</a
+							>
+						</li>
+					</ul>
+				</div>
+				<!--Grid column-->
+			</div>
+			<!--Grid row-->
+		</div>
+		<!-- Grid container -->
+	</footer>
+	<!-- Footer -->
 </section>
 
-
-
-  
-  
 <!-- Slider -->
 <script>
-  var slider = document.getElementById("myRange");
-  var output = document.getElementById("demo");
-  output.innerHTML = slider.value;
+	var slider = document.getElementById("myRange");
+	var output = document.getElementById("demo");
+	output.innerHTML = slider.value;
+
+	slider.oninput = function() {
+		output.innerHTML = this.value;
+	}
+</script>
+
   
-  slider.oninput = function() {
-    output.innerHTML = this.value;
-  }
-  </script>
+  
+
   <!-- Option 2: Separate Popper and Bootstrap JS -->
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
