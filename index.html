@@ -19,7 +19,8 @@
 	<title>AHTN | Home</title>
 	<link rel="stylesheet" href="css/styles.css" />
 	<link rel="icon" href="favicon.ico" type="icon" sizes="16x16">
-</head>
+	<link href="css/all.min.css" rel="stylesheet">
+
 
 
 <!-- Style for floating form -->
@@ -205,9 +206,37 @@ div#carouselExampleCaptions .carousel-item {
 }
 
 
+.loginModal {
+	background-color: #1c96bc;
+    background-image: linear-gradient(to right, #1b95bb, #016d8f);
+    color: white;
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e600 !important;
+  padding: 1rem 1rem 0rem 29rem  !important;
+  color: #ffffff;
+}
+
+
+.margin-left-23 {
+	margin-left: 22px;
+
+}
+
+.form-control {
+	border-radius:  0.1rem !important;
+}
+
+.btn-warning {
+    color: #ffffff;
+    background-color: #f79847;
+    border-color: #f79847;
+}
+
 </style>
 
-
+</head>
 
 
 <body>
@@ -263,12 +292,10 @@ div#carouselExampleCaptions .carousel-item {
 					</button>
 				</li>
 				<li class="nav-item">
-					<button
-					class="btn btn-warning btn-sm my-sm-0  joinbtn"
-					type=""><i class="fa fa-pencil-square-o" aria-hidden="true"></i>
-					<span style="padding-left: 3px;"> Join Us </span>
-
-				</button>
+					<a href="Register.html" class="btn btn-warning btn-sm my-sm-0  joinbtn"><i class="fa fa-pencil-square-o"
+							aria-hidden="true"></i>
+						Join Us
+					</a>
 			</li>
 		</div>
 	</div>
@@ -594,21 +621,37 @@ div#carouselExampleCaptions .carousel-item {
 </div>
 
 
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+<div class="modal fade " id="loginModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
 	aria-hidden="true">
-	<div class="modal-dialog">
-		<div class="modal-content">
-			<div class="modal-header">
-				<h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-				<button type="button" class="btn-close fs-6"  data-bs-dismiss="modal"  aria-label="Close"></button>
+	<div class="modal-dialog ">
+		<div class="modal-content loginModal">
+			<div class="modal-header ">
+				<i class="fas fa-times " data-bs-dismiss="modal" aria-label="Close" style="font-size: 18px; "></i>
 			</div>
-			<div class="modal-body">
-				...
+			<div class="modal-body margin-left-23">
+				<h5 class="modal-title text-white mb-3" id="exampleModalLabel"><b>Member</b> Login</h5>
+				<form action="member-profile2.html" method="POST">
+					<div class="mb-3">
+						
+						<input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+					</div>
+					<div class="mb-3">
+						<input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+					</div>
+					<div class="row  mt-4">
+						<div class="col-md-4">
+							<button type="submit" style="padding:3px 30px 3px 37px;" class="btn btn-warning">Login <i class="fa ml-4 fa-caret-right" aria-hidden="true" style="    margin-left: 6px;"></i></button>
+
+						</div>
+						<div class="col-md-1"></div>
+						<div class="col-md-7">
+							<p style="font-size: 13px;margin-top: 5px;" class="text-white">Don't have an account? <a href="Register.html" class="text-white" >Register Here</a></p>
+						</div>
+					</div>
+				</form>
+
 			</div>
-			<div class="modal-footer">
-				<button type="button" class="btn btn-secondary"  data-bs-dismiss="modal">Close</button>
-				<button type="button" class="btn btn-primary">Save changes</button>
-			</div>
+			
 		</div>
 	</div>
 </div>
@@ -733,7 +776,7 @@ div#carouselExampleCaptions .carousel-item {
 							<a
 							href="#!"
 							class="text-dark"
-
+							data-bs-toggle="modal" data-bs-target="#loginModal"
 							>Log in</a
 							>
 						</li>
@@ -765,6 +808,8 @@ div#carouselExampleCaptions .carousel-item {
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
 	integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
 	crossorigin="anonymous"></script>
+
+	<script src="js/all.min.js"></script>
 
 
 </body>
